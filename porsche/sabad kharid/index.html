@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>sabad kharid</title>
+  </head>
+  <body>
+    <h1>Shopping Cart</h1>
+
+    <div class="shopping-cart">
+      <div class="column-labels">
+        <label class="product-image">Image</label>
+        <label class="product-details">Product</label>
+        <label class="product-price">Price</label>
+        <label class="product-quantity">Quantity</label>
+        <label class="product-add">Add</label>
+        <label class="product-removal">Remove</label>
+        <label class="product-line-price">Total</label>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="../img/img15.jpg" width="100px" height="100px" />
+        </div>
+        <div class="product-details">
+          <div class="product-title">Car</div>
+        </div>
+        <div class="product-price">59.87</div>
+        <div class="product-quantity">
+          <input type="number" value="1" min="0" />
+        </div>
+        <div class="product-add">
+          <button class="add-product">Add to Cart</button>
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">Remove</button>
+        </div>
+        <div class="product-line-price">59.87</div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="../img/img3.jpg" width="100px" height="100px" />
+        </div>
+        <div class="product-details">
+          <div class="product-title">Car</div>
+        </div>
+        <div class="product-price">29.87</div>
+        <div class="product-quantity">
+          <input type="number" value="1" min="0" />
+        </div>
+
+        <div class="product-add">
+          <button class="add-product">Add to Cart</button>
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">Remove</button>
+        </div>
+        <div class="product-line-price">29.87</div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="../img/img1.jpg" width="100px" height="100px" />
+        </div>
+        <div class="product-details">
+          <div class="product-title">Car</div>
+        </div>
+        <div class="product-price">29.87</div>
+        <div class="product-quantity">
+          <input type="number" value="1" min="0" />
+        </div>
+
+        <div class="product-add">
+          <button class="add-product">Add to Cart</button>
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">Remove</button>
+        </div>
+        <div class="product-line-price">29.87</div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="../img/img9.jpg" width="100px" height="100px" />
+        </div>
+        <div class="product-details">
+          <div class="product-title">Car</div>
+        </div>
+        <div class="product-price">19.87</div>
+        <div class="product-quantity">
+          <input type="number" value="1" min="0" />
+        </div>
+
+        <div class="product-add">
+          <button class="add-product">Add to Cart</button>
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">Remove</button>
+        </div>
+        <div class="product-line-price">19.87</div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="../img/img14.jpg" width="100px" height="100px" />
+        </div>
+        <div class="product-details">
+          <div class="product-title">Car</div>
+        </div>
+        <div class="product-price">39.87</div>
+        <div class="product-quantity">
+          <input type="number" value="1" min="0" />
+        </div>
+
+        <div class="product-add">
+          <button class="add-product">Add to Cart</button>
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">Remove</button>
+        </div>
+        <div class="product-line-price">39.87</div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="../img/img16.jpg" width="100px" height="100px" />
+        </div>
+        <div class="product-details">
+          <div class="product-title">Car</div>
+        </div>
+        <div class="product-price">39.87</div>
+        <div class="product-quantity">
+          <input type="number" value="1" min="0" />
+        </div>
+
+        <div class="product-add">
+          <button class="add-product">Add to Cart</button>
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">Remove</button>
+        </div>
+        <div class="product-line-price">39.87</div>
+      </div>
+
+      <div class="totals">
+        <div class="totals-item">
+          <label>Subtotal</label>
+          <div class="totals-value" id="cart-subtotal">219.22</div>
+        </div>
+        <div class="totals-item">
+          <label>Tax (7.5%)</label>
+          <div class="totals-value" id="cart-tax">16.45</div>
+        </div>
+
+        <div class="totals-item totals-item-total">
+          <label>Grand Total</label>
+          <div class="totals-value" id="cart-total">235.67</div>
+        </div>
+      </div>
+
+      <button class="checkout">Checkout</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
